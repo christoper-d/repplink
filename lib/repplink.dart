@@ -198,7 +198,6 @@ class Repplink {
     }
   }
 
-
   /// Descarga el archivo, lo parsea por líneas y convierte cada fila en un modelo personalizado `T`.
   ///
   /// Requiere que pases una función `fromRow`, que reciba una fila como `List<dynamic>` (sin encabezado)
@@ -298,7 +297,6 @@ class Repplink {
 
     throw FormatException('Formato de datos no compatible con el modelo.');
   }
-
 }
 
 
